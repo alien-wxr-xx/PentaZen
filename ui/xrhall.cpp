@@ -1,7 +1,7 @@
 #include "xrhall.h"
 #include "ui_xrhall.h"
-#include "Kernel/uiinc.h"
-#include "Kernel/macro.h"
+#include "engine/uiinc.h"
+#include "engine/macro.h"
 
 xrHall::xrHall(QWidget *parent) :
     QWidget(parent),
@@ -11,9 +11,9 @@ xrHall::xrHall(QWidget *parent) :
 
     initialize();
 
-    this->setWindowTitle("Welcome to SunGomoku!");
+    this->setWindowTitle("Welcome to PentaZen!");
 
-    vtext = "AI v1.1.4, UI v1.4.1";
+    vtext = "AI v1.0.0, UI v1.0.0";
     ui->versionLabel->setText(vtext);
     ui->versionLabel->setAlignment(Qt::AlignCenter);
 

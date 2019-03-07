@@ -1,7 +1,7 @@
 #include "xrroom.h"
 #include "ui_xrroom.h"
-#include "Kernel/uiinc.h"
-#include "Kernel/macro.h"
+#include "engine/uiinc.h"
+#include "engine/macro.h"
 
 #include <QLabel>
 #include <QPainter>

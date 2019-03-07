@@ -25,19 +25,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-        main.cpp \
-    ui/chessboard.cpp \
-    ui/xrhall.cpp \
-    ui/xrroom.cpp \
-    ui/xrtemp.cpp \
-    main.cpp \
-    engine/board.c \
-    engine/book.c \
-    engine/pair.c \
-    engine/search.c \
-    engine/table.c \
-    engine/tree.c \
-    engine/uiinc.c \
     ui/chessboard.cpp \
     ui/xrhall.cpp \
     ui/xrroom.cpp \
@@ -66,26 +53,9 @@ HEADERS += \
     ui/chessboard.h \
     ui/xrhall.h \
     ui/xrroom.h \
-    ui/xrtemp.h \
-    engine/board.h \
-    engine/book.h \
-    engine/key.h \
-    engine/macro.h \
-    engine/mvlist.h \
-    engine/pair.h \
-    engine/pattern.h \
-    engine/search.h \
-    engine/table.h \
-    engine/tree.h \
-    engine/uiinc.h \
-    ui/chessboard.h \
-    ui/xrhall.h \
-    ui/xrroom.h \
     ui/xrtemp.h
 
 FORMS += \
-    ui/xrhall.ui \
-    ui/xrroom.ui \
     ui/xrhall.ui \
     ui/xrroom.ui
 
@@ -93,3 +63,10 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    resources/myicon.qrc
+
+DISTFILES += \
+    resources/restartV2.icns \
+    resources/undoV2.icns

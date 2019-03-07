@@ -1,4 +1,4 @@
-#include "xrhall.h"
+#include "ui/xrhall.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])

@@ -26,13 +26,68 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        xrhall.cpp
+    ui/chessboard.cpp \
+    ui/xrhall.cpp \
+    ui/xrroom.cpp \
+    ui/xrtemp.cpp \
+    main.cpp \
+    engine/board.c \
+    engine/book.c \
+    engine/pair.c \
+    engine/search.c \
+    engine/table.c \
+    engine/tree.c \
+    engine/uiinc.c \
+    ui/chessboard.cpp \
+    ui/xrhall.cpp \
+    ui/xrroom.cpp \
+    ui/xrtemp.cpp \
+    main.cpp \
+    engine/board.c \
+    engine/book.c \
+    engine/pair.c \
+    engine/search.c \
+    engine/table.c \
+    engine/tree.c \
+    engine/uiinc.c
 
 HEADERS += \
-        xrhall.h
+    engine/board.h \
+    engine/book.h \
+    engine/key.h \
+    engine/macro.h \
+    engine/mvlist.h \
+    engine/pair.h \
+    engine/pattern.h \
+    engine/search.h \
+    engine/table.h \
+    engine/tree.h \
+    engine/uiinc.h \
+    ui/chessboard.h \
+    ui/xrhall.h \
+    ui/xrroom.h \
+    ui/xrtemp.h \
+    engine/board.h \
+    engine/book.h \
+    engine/key.h \
+    engine/macro.h \
+    engine/mvlist.h \
+    engine/pair.h \
+    engine/pattern.h \
+    engine/search.h \
+    engine/table.h \
+    engine/tree.h \
+    engine/uiinc.h \
+    ui/chessboard.h \
+    ui/xrhall.h \
+    ui/xrroom.h \
+    ui/xrtemp.h
 
 FORMS += \
-        xrhall.ui
+    ui/xrhall.ui \
+    ui/xrroom.ui \
+    ui/xrhall.ui \
+    ui/xrroom.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

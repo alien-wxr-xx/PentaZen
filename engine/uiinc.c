@@ -89,11 +89,6 @@ void set_difficulty(const int dif)
             Srh.dep = 10;
             Srh.book = false;
             break;
-        case 2:
-            set_forbidden(true);
-            Srh.dep = 10;
-            Srh.book = true;
-            break;
         default:
             break;
     }

@@ -88,11 +88,6 @@
        <string>有禁手</string>
       </property>
      </item>
-     <item>
-      <property name="text">
-       <string>有禁手+开局库</string>
-      </property>
-     </item>
     </widget>
    </item>
    <item row="5" column="3">

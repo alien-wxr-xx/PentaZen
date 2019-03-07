@@ -13,7 +13,7 @@ xrHall::xrHall(QWidget *parent) :
 
     this->setWindowTitle("Welcome to PentaZen!");
 
-    vtext = "AI v1.0.0, UI v1.0.0";
+    vtext = "AI v1.1.4, UI v1.0.0";
     ui->versionLabel->setText(vtext);
     ui->versionLabel->setAlignment(Qt::AlignCenter);
 
